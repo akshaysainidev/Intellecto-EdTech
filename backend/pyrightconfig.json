@@ -1,0 +1,27 @@
+{
+  "include": [
+    "**/*.py"
+  ],
+  "exclude": [
+    "node_modules",
+    ".git",
+  ],
+  "defineConstant": {},
+  "pythonVersion": "3.11",
+  "pythonPlatform": "Windows",
+  "venvPath": ".",
+  "venv": ".venv",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
+  "reportGeneralTypeIssues": false,
+  "reportOptionalSubscript": false,
+  "reportOperatorIssue": false,
+  "reportIndexIssue": false,
+  "useLibraryCodeForTypes": true,
+  "extraPaths": [
+    ".",
+    "./services",
+    "./routers"
+  ]
+}
